@@ -5,8 +5,8 @@ services:
    restart: unless-stopped
    image: pysergio/hiroshi:latest
    environment:
-     TELEGRAM_BOT_TOKEN: 1111111111:SOME_REAL_TOKEN_HERE
-     USERS_WHITELIST: "@YouUserName,@YourFriendUserName"
+     TELEGRAM_BOT_TOKEN: 6542608958:AAF_pZe9t48p6VQgNsy2PX8mVehmbEFpdSY
+     USERS_WHITELIST: "@YouUserName,@YourFriendUserNamedUserName"
      REDIS: "redis://redis"
 
   redis:
